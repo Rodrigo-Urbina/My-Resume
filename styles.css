@@ -1,0 +1,123 @@
+body {
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: Verdana;
+  font-size: 13px;
+  color: #6d6d6d;
+}
+
+section {
+  padding: 10px;
+}
+
+h1 {
+  /* este es mi header */
+  margin: 0px;
+  padding: 20px;
+  background-color: #55B3C5;
+  color: #FFFFFF;
+  font-size: 30px;
+  text-align: center;
+}
+
+a.mail:link, a.mail:visited {
+  background-color: green;
+  color: white;
+  padding: 15px 47px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.mail:hover, a.mail:active {
+  background-color: red;
+}
+
+a.github:link, a.github:visited {
+  background-color: blue;
+  color: white;
+  padding: 15px 76px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.github:hover, a.github:active {
+  background-color: red;
+}
+
+a.linkedin:link, a.linkedin:visited {
+  background-color: purple;
+  color: white;
+  padding: 15px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.linkedin:hover, a.linkedin:active {
+  background-color: red;
+}
+
+address {
+  padding: 10px 0px;
+  align-content: right;
+}
+
+div {
+  overflow: auto;
+}
+
+.box {
+  width: 220px;
+  height: 240px;
+}
+
+.reflinks {
+  text-align: left;
+  padding: 10px 20px;
+  float: left;
+}
+
+.photo {
+  padding: 20px 273px;
+  float: left;
+}
+
+.home {
+  clear: right;
+}
+
+fieldset {
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+pre {
+  font-size: 14px;
+  padding: 0px 15px;
+}
+
+.box2 {
+  width: 500px;
+  height: 350px;
+}
+
+.column1 {
+  padding: 10px 20px;
+  float: left;
+}
+
+.column2 {
+  padding: 10px 20px;
+  float: left;
+}
+
+footer {
+  padding: 10px 20px;
+}
